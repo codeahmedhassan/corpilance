@@ -96,7 +96,7 @@ export default function FeaturesSection() {
                 <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-16">
                     <div>
                         <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-700 text-xs font-semibold tracking-wide mb-4">
-                            WHY PEOPLEHUB
+                            WHY CORPILANCE
                         </div>
                         <h2 className="text-3xl sm:text-4xl lg:text-[42px] font-extrabold text-slate-900 tracking-tight leading-tight">
                             Everything you need
@@ -106,7 +106,7 @@ export default function FeaturesSection() {
                     </div>
                     <div className="max-w-md">
                         <p className="text-slate-600 text-sm leading-relaxed mb-4">
-                            PeopleHub brings all your HR processes into one simple, powerful platform — so you
+                            CorpiLance brings all your HR processes into one simple, powerful platform — so you
                             can save time, stay compliant, and create a better employee experience.
                         </p>
                         <button

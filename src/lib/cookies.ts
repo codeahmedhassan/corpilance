@@ -4,7 +4,7 @@
  * them ideal for a policy that may need to gate SSR or analytics loading.
  */
 
-export const COOKIE_CONSENT_KEY = "peoplehub_cookie_consent";
+export const COOKIE_CONSENT_KEY = "corpilance_cookie_consent";
 export const COOKIE_CONSENT_VERSION = "1"; // bump this when policy changes
 
 export type ConsentState = {

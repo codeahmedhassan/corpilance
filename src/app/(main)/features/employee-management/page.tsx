@@ -13,7 +13,7 @@ import RelatedFeatures from "@/components/features/employee-management/RelatedFe
 import EmployeeCta from "@/components/features/employee-management/EmployeeCta";
 
 export const metadata: Metadata = {
-    title: "Employee Management — PeopleHub",
+    title: "Employee Management — CorpiLance",
     description:
         "A single source of truth for every employee. Rich profiles, live org charts, documents, custom fields, and audit-ready history — all in one platform.",
 };

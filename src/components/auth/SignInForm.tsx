@@ -103,7 +103,7 @@ export default function SignInForm() {
 
         setSubmitting(true);
         try {
-            const { user, requiresVerification } = await authApi.login({
+            const res = await authApi.login({
                 email,
                 password,
                 rememberMe,
@@ -112,15 +112,25 @@ export default function SignInForm() {
             const ADMIN_URL =
                 process.env.NEXT_PUBLIC_ADMIN_URL || "http://localhost:3002";
 
-            if (requiresVerification) {
+            if (res.requires2FA) {
+                if (typeof window !== "undefined") {
+                    if (res.tempToken) sessionStorage.setItem("ph_2fa_temp", res.tempToken);
+                    if (res.destination) sessionStorage.setItem("ph_2fa_dest", res.destination);
+                    if (rememberMe) sessionStorage.setItem("ph_2fa_remember", "true");
+                }
+                router.replace(`/verify?dest=${encodeURIComponent(res.destination || email)}`);
+                return;
+            }
+
+            if (res.requiresVerification) {
                 router.replace("/verify-email");
                 return;
             }
-            if (!user.emailVerified) {
+            if (res.user && !res.user.emailVerified) {
                 router.replace("/verify-email");
                 return;
             }
-            if (!user.setupCompletedAt) {
+            if (res.user && !res.user.setupCompletedAt) {
                 router.replace("/setup-workspace");
                 return;
             }

@@ -154,7 +154,7 @@ export default function HeroDashboard() {
                 unoptimized
               />
               <span className="text-xs font-bold tracking-tight text-slate-800 xs:inline">
-                PeopleHub
+                CorpiLance
               </span>
             </div>
             {/* Search hidden on mobile, shows from sm up */}

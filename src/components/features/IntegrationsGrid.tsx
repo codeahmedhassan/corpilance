@@ -24,7 +24,7 @@ export default function IntegrationsGrid() {
                     </h2>
                 </div>
                 <p className="text-sm text-slate-500 max-w-md leading-relaxed">
-                    Native integrations and a full REST API — so PeopleHub fits into your workflow,
+                    Native integrations and a full REST API — so CorpiLance fits into your workflow,
                     not the other way around.
                 </p>
             </div>

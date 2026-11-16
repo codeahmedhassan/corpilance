@@ -90,7 +90,7 @@ export default function AboutHero() {
                 <div className="text-center max-w-3xl mx-auto">
                     {/* Pill badge */}
                     <div className="inline-flex items-center px-3 py-1 sm:px-3.5 sm:py-1 rounded-full text-[10px] sm:text-xs font-bold tracking-wide uppercase bg-blue-100/70 text-blue-600 mb-4 sm:mb-5">
-                        About PeopleHub
+                        About CorpiLance
                     </div>
 
                     {/* Headline — scales step by step for mobile legibility */}
@@ -102,7 +102,7 @@ export default function AboutHero() {
 
                     {/* Subheading */}
                     <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed px-2">
-                        PeopleHub started with a simple belief: the tools HR teams rely on every day
+                        CorpiLance started with a simple belief: the tools HR teams rely on every day
                         should be as thoughtful as the people they support. Six years later, that
                         belief still guides everything we build.
                     </p>

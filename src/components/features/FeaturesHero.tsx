@@ -98,7 +98,7 @@ export default function FeaturesHero() {
 
                     {/* Subheading */}
                     <p className="mt-4 text-base sm:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed">
-                        From the first interview to the final payslip, PeopleHub replaces the scattered
+                        From the first interview to the final payslip, CorpiLance replaces the scattered
                         spreadsheets and disconnected tools your team relies on today.
                     </p>
 

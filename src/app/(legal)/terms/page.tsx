@@ -6,9 +6,9 @@ import TermsContact from "@/components/legal/TermsContact";
 import { TERMS_SECTIONS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Terms of Service — PeopleHub",
+    title: "Terms of Service — CorpiLance",
     description:
-        "The terms that govern your use of PeopleHub. Written in plain language, with fair terms on billing, data, liability, and termination.",
+        "The terms that govern your use of CorpiLance. Written in plain language, with fair terms on billing, data, liability, and termination.",
 };
 
 export default function TermsPage() {
@@ -17,7 +17,7 @@ export default function TermsPage() {
             <LegalHero
                 badge="Legal"
                 title="Terms of Service"
-                subtitle="The rules of the road for using PeopleHub. Written to be read — not to hide things."
+                subtitle="The rules of the road for using CorpiLance. Written to be read — not to hide things."
                 lastUpdated="April 22, 2025"
                 effectiveDate="May 1, 2025"
             />

@@ -284,7 +284,7 @@ export default function PricingSection() {
                             </div>
                             <div className="text-left text-xs leading-snug">
                                 <p className="font-bold text-slate-900">10,000+</p>
-                                <p className="text-slate-500 font-normal">companies trust PeopleHub</p>
+                                <p className="text-slate-500 font-normal">companies trust CorpiLance</p>
                             </div>
                         </div>
                     </div>

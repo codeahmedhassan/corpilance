@@ -7,9 +7,9 @@ import ResetPasswordCard from "@/components/auth/ResetPasswordCard";
 import { RESET_HIGHLIGHTS, RESET_TESTIMONIAL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Reset your password — PeopleHub",
+    title: "Reset your password — CorpiLance",
     description:
-        "Choose a new password for your PeopleHub account. Passwords are encrypted and never stored in plain text.",
+        "Choose a new password for your CorpiLance account. Passwords are encrypted and never stored in plain text.",
 };
 
 function HighlightIcon({

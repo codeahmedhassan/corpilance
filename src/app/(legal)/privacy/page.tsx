@@ -6,9 +6,9 @@ import LegalContact from "@/components/legal/LegalContact";
 import { PRIVACY_SECTIONS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Privacy Policy — PeopleHub",
+    title: "Privacy Policy — CorpiLance",
     description:
-        "How PeopleHub collects, uses, and protects your personal data. GDPR and CCPA aligned. Full transparency — no data selling, ever.",
+        "How CorpiLance collects, uses, and protects your personal data. GDPR and CCPA aligned. Full transparency — no data selling, ever.",
 };
 
 export default function PrivacyPage() {

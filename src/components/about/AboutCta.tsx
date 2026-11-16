@@ -24,7 +24,7 @@ export default function AboutCta() {
                             building better workplaces.
                         </h2>
                         <p className="mt-4 sm:mt-5 text-slate-300 text-sm sm:text-base leading-relaxed max-w-lg mx-auto">
-                            Start free, invite your team, and see why HR leaders choose PeopleHub.
+                            Start free, invite your team, and see why HR leaders choose CorpiLance.
                             No credit card, no commitment.
                         </p>
 

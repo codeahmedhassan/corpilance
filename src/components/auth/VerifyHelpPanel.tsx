@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { OTP_HELP_ITEMS } from "@/lib/constants";
 
-const DISMISS_KEY = "peoplehub_otp_help_dismissed";
+const DISMISS_KEY = "corpilance_otp_help_dismissed";
 
 function HelpIcon({ name }: { name: "mail" | "key" | "support" }) {
     const common = {

@@ -1,4 +1,4 @@
-# PeopleHub --- Landing Page Design Specification
+# CorpiLance --- Landing Page Design Specification
 
 ## 1. Design Goal
 
@@ -29,7 +29,7 @@ direction.
 
 ## Product Name
 
-**PeopleHub**
+**CorpiLance**
 
 ## Product Category
 
@@ -341,17 +341,17 @@ Logo | Navigation | Account Actions
 
 ### Left
 
-PeopleHub logo.
+CorpiLance logo.
 
 Logo consists of:
 
 -   Small blue abstract geometric icon
--   `PeopleHub` text
+-   `CorpiLance` text
 
 Text:
 
 ``` text
-PeopleHub
+CorpiLance
 ```
 
 Typography:
@@ -483,7 +483,7 @@ The headline should be the strongest typographic element on the page.
 Use:
 
 ``` text
-From hiring to payroll, PeopleHub helps modern
+From hiring to payroll, CorpiLance helps modern
 companies streamline HR, automate everyday
 work, and focus on what really matters — their people.
 ```
@@ -559,7 +559,7 @@ Next to them:
 
 ``` text
 10,000+
-companies trust PeopleHub
+companies trust CorpiLance
 ```
 
 The number should be bold.
@@ -595,7 +595,7 @@ Inside the dashboard:
 
 ### Left
 
-PeopleHub logo.
+CorpiLance logo.
 
 ### Center
 
@@ -847,7 +847,7 @@ is blue.
 Right-side supporting copy:
 
 ``` text
-PeopleHub brings all your HR processes into one simple,
+CorpiLance brings all your HR processes into one simple,
 powerful platform — so you can save time, stay compliant,
 and create a better employee experience.
 ```
@@ -984,7 +984,7 @@ Designed for what’s next.
 Supporting text:
 
 ``` text
-Whether you’re a startup or an enterprise, PeopleHub
+Whether you’re a startup or an enterprise, CorpiLance
 adapts to your needs and grows with you.
 ```
 
@@ -1034,7 +1034,7 @@ Below it:
 
 -   Small employee/team avatars
 -   `10K+ teams`
--   `choose PeopleHub`
+-   `choose CorpiLance`
 
 Card styling:
 

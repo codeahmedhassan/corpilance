@@ -216,7 +216,7 @@ export const PRICING_PLANS: PricingPlan[] = [
 export const TESTIMONIALS = [
     {
         quote:
-            "PeopleHub replaced four different tools for us. Payroll that used to take days now takes minutes.",
+            "CorpiLance replaced four different tools for us. Payroll that used to take days now takes minutes.",
         name: "Sarah Chen",
         role: "Head of People, Northwind",
         avatar:
@@ -427,7 +427,7 @@ export const PRICING_FAQS = [
     {
         question: "Do you offer refunds?",
         answer:
-            "If you're unsatisfied with PeopleHub for any reason within your first 30 days of paid service, our support team will gladly issue a full refund.",
+            "If you're unsatisfied with CorpiLance for any reason within your first 30 days of paid service, our support team will gladly issue a full refund.",
     },
     {
         question: "Is my data secure?",
@@ -609,7 +609,7 @@ export const GUARANTEE_POINTS = [
 /* ---------- Testimonial ---------- */
 export const PRICING_TESTIMONIAL = {
     quote:
-        "We evaluated six HR platforms. PeopleHub won on pricing, but it kept us on product. Payroll that took three days now runs itself.",
+        "We evaluated six HR platforms. CorpiLance won on pricing, but it kept us on product. Payroll that took three days now runs itself.",
     name: "Elena Rodrigues",
     role: "VP of People, Cadence Labs",
     avatar:
@@ -834,47 +834,47 @@ export const SECURITY_FEATURES = [
     },
 ];
 
-/* ---------- Comparison: PeopleHub vs. alternatives ---------- */
+/* ---------- Comparison: CorpiLance vs. alternatives ---------- */
 export const COMPARISON_ROWS = [
     {
         feature: "Setup time",
-        peoplehub: "Under 1 day",
+        corpilance: "Under 1 day",
         spreadsheets: "Weeks",
         legacy: "3–6 months",
     },
     {
         feature: "Automated payroll",
-        peoplehub: true,
+        corpilance: true,
         spreadsheets: false,
         legacy: "Partial",
     },
     {
         feature: "Real-time analytics",
-        peoplehub: true,
+        corpilance: true,
         spreadsheets: "Manual",
         legacy: "Add-on cost",
     },
     {
         feature: "Mobile app",
-        peoplehub: true,
+        corpilance: true,
         spreadsheets: false,
         legacy: "Limited",
     },
     {
         feature: "API access",
-        peoplehub: "Included",
+        corpilance: "Included",
         spreadsheets: false,
         legacy: "Premium tier",
     },
     {
         feature: "Compliance updates",
-        peoplehub: "Automatic",
+        corpilance: "Automatic",
         spreadsheets: false,
         legacy: "Manual",
     },
     {
         feature: "Cost per employee",
-        peoplehub: "From $2/mo",
+        corpilance: "From $2/mo",
         spreadsheets: "Hidden",
         legacy: "$15–25/mo",
     },
@@ -884,7 +884,7 @@ export const COMPARISON_ROWS = [
 export const FEATURE_TESTIMONIALS = [
     {
         quote:
-            "We replaced four separate tools with PeopleHub. Onboarding time dropped from two weeks to two days.",
+            "We replaced four separate tools with CorpiLance. Onboarding time dropped from two weeks to two days.",
         name: "Daniel Kim",
         role: "Head of Operations, Fathom",
         avatar:
@@ -1329,7 +1329,7 @@ export const ATTENDANCE_DEEP_DIVE: AttendanceDeepDiveTab[] = [
         label: "Track",
         headline: "Time capture that just works.",
         description:
-            "Whether your team is at a desk, on a shop floor, or on the road — PeopleHub captures accurate hours without friction.",
+            "Whether your team is at a desk, on a shop floor, or on the road — CorpiLance captures accurate hours without friction.",
         bullets: [
             "One-tap clock-in from web, mobile, or kiosk",
             "Offline mode for field and retail teams",
@@ -1692,7 +1692,7 @@ export const PAYROLL_DEEP_DIVE: PayrollDeepDiveTab[] = [
         label: "Run",
         headline: "Payroll in minutes, not days.",
         description:
-            "From gross to net in one click. PeopleHub pulls approved hours, salaries, benefits, and deductions — and calculates everything before you review.",
+            "From gross to net in one click. CorpiLance pulls approved hours, salaries, benefits, and deductions — and calculates everything before you review.",
         bullets: [
             "Gross-to-net calculation in seconds",
             "Live preview before submission",
@@ -1734,7 +1734,7 @@ export const PAYROLL_DEEP_DIVE: PayrollDeepDiveTab[] = [
         label: "Insight",
         headline: "Understand the true cost of your team.",
         description:
-            "Payroll is your biggest expense. PeopleHub gives you the reporting to see it clearly — by team, department, and location.",
+            "Payroll is your biggest expense. CorpiLance gives you the reporting to see it clearly — by team, department, and location.",
         bullets: [
             "Real-time payroll cost dashboards",
             "Cost per department, per location, per head",
@@ -1807,7 +1807,7 @@ export const PAYROLL_TESTIMONIALS = [
     },
     {
         quote:
-            "We operate in eleven countries. PeopleHub is the first platform that didn't make us hire an accountant per region.",
+            "We operate in eleven countries. CorpiLance is the first platform that didn't make us hire an accountant per region.",
         name: "Lucas Bergmann",
         role: "VP Finance, Northwind",
         avatar:
@@ -1833,7 +1833,7 @@ export const PAYROLL_FAQS = [
     {
         question: "Do you file taxes on our behalf?",
         answer:
-            "Yes. In supported regions, PeopleHub handles federal, state, and local filings end to end — including remittance and year-end forms. You retain full visibility and control.",
+            "Yes. In supported regions, CorpiLance handles federal, state, and local filings end to end — including remittance and year-end forms. You retain full visibility and control.",
     },
     {
         question: "Can we run payroll in multiple currencies?",
@@ -1906,7 +1906,7 @@ export const RECRUITMENT_STATS = [
     { value: "-40%", label: "Time to hire" },
     { value: "3x", label: "Interviews per recruiter" },
     { value: "95%", label: "Offer acceptance rate" },
-    { value: "12K+", label: "Hires made on PeopleHub" },
+    { value: "12K+", label: "Hires made on CorpiLance" },
 ] as const;
 
 /* ---------- Capabilities (6) ---------- */
@@ -2207,7 +2207,7 @@ export const RECRUITMENT_FAQS = [
     {
         question: "What happens when an offer is accepted?",
         answer:
-            "The candidate automatically becomes an employee record in PeopleHub, triggering the onboarding workflow — payroll, benefits, equipment, and system access all provisioned.",
+            "The candidate automatically becomes an employee record in CorpiLance, triggering the onboarding workflow — payroll, benefits, equipment, and system access all provisioned.",
     },
     {
         question: "Can I import candidates from our old ATS?",
@@ -2316,7 +2316,7 @@ export const ABOUT_VALUES = [
 export const ABOUT_TIMELINE = [
     {
         year: "2019",
-        title: "PeopleHub is born",
+        title: "CorpiLance is born",
         description:
             "Three HR operators and two engineers start building the tool they wished existed.",
     },
@@ -2406,7 +2406,7 @@ export const ABOUT_INVESTORS = [
 
 /* ---------- Stats ---------- */
 export const ABOUT_BIG_STATS = [
-    { value: "10,000+", label: "Companies on PeopleHub" },
+    { value: "10,000+", label: "Companies on CorpiLance" },
     { value: "1.2M+", label: "Employees managed" },
     { value: "32", label: "Countries served" },
     { value: "99.9%", label: "Uptime, 12-month avg" },
@@ -2428,24 +2428,24 @@ export const CONTACT_CHANNELS = [
     {
         title: "Talk to sales",
         description: "For pricing, demos, and enterprise plans.",
-        action: "sales@peoplehub.com",
-        href: "mailto:sales@peoplehub.com",
+        action: "sales@corpilance.com",
+        href: "mailto:sales@corpilance.com",
         icon: "sales" as const,
         accent: "blue" as const,
     },
     {
         title: "Product support",
         description: "Already a customer? We're here to help.",
-        action: "support@peoplehub.com",
-        href: "mailto:support@peoplehub.com",
+        action: "support@corpilance.com",
+        href: "mailto:support@corpilance.com",
         icon: "support" as const,
         accent: "emerald" as const,
     },
     {
         title: "Press & media",
         description: "For journalists and partnership inquiries.",
-        action: "press@peoplehub.com",
-        href: "mailto:press@peoplehub.com",
+        action: "press@corpilance.com",
+        href: "mailto:press@corpilance.com",
         icon: "press" as const,
         accent: "purple" as const,
     },
@@ -2558,7 +2558,7 @@ export const SIGNIN_HIGHLIGHTS = [
 
 export const SIGNIN_TESTIMONIAL = {
     quote:
-        "We migrated from a legacy HRIS in a week. Our team was productive on PeopleHub from day one.",
+        "We migrated from a legacy HRIS in a week. Our team was productive on CorpiLance from day one.",
     name: "Maya Chen",
     role: "Head of People, Northwind",
     avatar:
@@ -2624,7 +2624,7 @@ export const SIGNUP_ROLES = [
 
 export const SIGNUP_TESTIMONIAL = {
     quote:
-        "We were up and running on PeopleHub before lunch. Our team stopped using three other tools that same week.",
+        "We were up and running on CorpiLance before lunch. Our team stopped using three other tools that same week.",
     name: "Jonas Weber",
     role: "COO, Draft Labs",
     avatar:
@@ -2745,8 +2745,8 @@ export const PRIVACY_SUMMARY = [
 
 /* Contact block at the bottom */
 export const PRIVACY_CONTACT = {
-    email: "privacy@peoplehub.com",
-    dpo: "dpo@peoplehub.com",
+    email: "privacy@corpilance.com",
+    dpo: "dpo@corpilance.com",
     address: "Av. da Liberdade 110, 1250-146 Lisboa, Portugal",
 } as const;
 
@@ -2800,8 +2800,8 @@ export const TERMS_SUMMARY = [
 
 /* Contact block at the bottom */
 export const TERMS_CONTACT = {
-    email: "legal@peoplehub.com",
-    sales: "sales@peoplehub.com",
+    email: "legal@corpilance.com",
+    sales: "sales@corpilance.com",
     address: "Av. da Liberdade 110, 1250-146 Lisboa, Portugal",
 } as const;
 
@@ -2841,7 +2841,7 @@ export const COOKIE_CATEGORIES: CookieCategory[] = [
         title: "Strictly necessary",
         description:
             "Required for the Services to function — authentication, security, load balancing, and remembering your consent choice. These cannot be disabled.",
-        examples: "session_id, csrf_token, peoplehub_cookie_consent",
+        examples: "session_id, csrf_token, corpilance_cookie_consent",
         required: true,
         accent: "blue",
     },
@@ -2887,7 +2887,7 @@ export const COOKIES_SUMMARY = [
 ] as const;
 
 export const COOKIES_CONTACT = {
-    email: "privacy@peoplehub.com",
+    email: "privacy@corpilance.com",
     address: "Av. da Liberdade 110, 1250-146 Lisboa, Portugal",
 } as const;
 
@@ -2951,13 +2951,13 @@ export const DPA_ROLES = [
     },
     {
         role: "Data Processor",
-        party: "PeopleHub",
+        party: "CorpiLance",
         description:
             "Processes Personal Data on behalf of, and only on documented instructions from, the Controller.",
     },
     {
         role: "Sub-processor",
-        party: "Third parties engaged by PeopleHub",
+        party: "Third parties engaged by CorpiLance",
         description:
             "Engaged to assist in providing the Services. Listed in Annex 3 and bound by equivalent obligations.",
     },
@@ -2972,7 +2972,7 @@ export const DPA_ROLES = [
 /* Annex 1: Processing details */
 export const DPA_ANNEX_1 = {
     subjectMatter:
-        "Provision of the PeopleHub platform for human resources management, including employee records, time and attendance, payroll coordination, recruitment, performance, and analytics.",
+        "Provision of the CorpiLance platform for human resources management, including employee records, time and attendance, payroll coordination, recruitment, performance, and analytics.",
     duration:
         "The term of the Customer's subscription to the Services, plus any post-termination retention period described in the Agreement.",
     nature:
@@ -2996,7 +2996,7 @@ export const DPA_ANNEX_1 = {
         "Former employees (within retention periods)",
     ],
     specialCategories:
-        "Only where the Customer chooses to upload such data (e.g., health information for sick leave or accommodations). PeopleHub applies heightened safeguards to any such data.",
+        "Only where the Customer chooses to upload such data (e.g., health information for sick leave or accommodations). CorpiLance applies heightened safeguards to any such data.",
 } as const;
 
 /* Annex 2: Technical & Organizational Measures */
@@ -3135,8 +3135,8 @@ export const DPA_ANNEX_3: DpaSubprocessor[] = [
 
 /* Contact */
 export const DPA_CONTACT = {
-    email: "dpa@peoplehub.com",
-    legal: "legal@peoplehub.com",
+    email: "dpa@corpilance.com",
+    legal: "legal@corpilance.com",
     address: "Av. da Liberdade 110, 1250-146 Lisboa, Portugal",
 } as const;
 
@@ -3247,7 +3247,7 @@ export const VERIFY_EMAIL_HELP_ITEMS = [
     {
         title: "Check your spam or junk folder",
         description:
-            "Verification emails sometimes get filtered. Add no-reply@peoplehub.com to your safe senders list.",
+            "Verification emails sometimes get filtered. Add no-reply@corpilance.com to your safe senders list.",
         icon: "mail" as const,
     },
     {
@@ -3411,26 +3411,26 @@ export const SETUP_MODULES = [
     {
         id: "employees",
         label: "Employee Management",
-        description: "Records, org chart, documents",
+        description: "Employee directories, profiles, onboarding, and team organization",
         defaultOn: true,
     },
     {
         id: "attendance",
-        label: "Attendance & Leave",
-        description: "Time tracking, leave policies",
+        label: "Attendance Management",
+        description: "Daily clock-in/out, biometric devices, shift tracking, and rollups",
         defaultOn: true,
     },
     {
         id: "payroll",
-        label: "Payroll",
-        description: "Automated calculations & filings",
-        defaultOn: false,
+        label: "Payroll Management",
+        description: "Salary runs, salary structures, payslips, and pay history",
+        defaultOn: true,
     },
     {
-        id: "recruitment",
-        label: "Recruitment",
-        description: "Job postings, pipeline, offers",
-        defaultOn: false,
+        id: "leave",
+        label: "Leave Management",
+        description: "Leave requests, vacation policies, balance tracking, and approvals",
+        defaultOn: true,
     },
 ] as const;
 
@@ -3515,7 +3515,7 @@ export const NOT_FOUND_SUGGESTIONS = [
     },
     {
         title: "Features",
-        description: "See everything PeopleHub can do.",
+        description: "See everything CorpiLance can do.",
         href: "/features",
         icon: "sparkles" as const,
         accent: "emerald" as const,
@@ -3556,7 +3556,7 @@ export type WorkspacePayload = {
             employees: boolean;
             attendance: boolean;
             payroll: boolean;
-            recruitment: boolean;
+            leave: boolean;
         };
     };
 };
@@ -3597,7 +3597,7 @@ export const ACCEPT_INVITE_HIGHLIGHTS = [
     {
         title: "You've been invited",
         description:
-            "Someone on your team added you to their PeopleHub workspace.",
+            "Someone on your team added you to their CorpiLance workspace.",
         icon: "sparkles" as const,
     },
     {

@@ -40,7 +40,7 @@ export default function EmployeeWorkflows() {
                     </h2>
                 </div>
                 <p className="text-sm sm:text-base text-slate-600 max-w-md leading-relaxed">
-                    When an employee&apos;s status changes, PeopleHub triggers the downstream
+                    When an employee&apos;s status changes, CorpiLance triggers the downstream
                     steps — no reminders, no missed handoffs.
                 </p>
             </div>

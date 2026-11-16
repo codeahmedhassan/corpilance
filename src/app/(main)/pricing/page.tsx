@@ -11,7 +11,7 @@ import TrustBadges from "@/components/pricing/TrustBadges";
 import BottomCta from "@/components/pricing/BottomCta";
 
 export const metadata: Metadata = {
-    title: "PeopleHub — Simple, transparent pricing for every team",
+    title: "CorpiLance — Simple, transparent pricing for every team",
     description:
         "Choose the plan that fits your business. Start free, upgrade anytime. No hidden fees, 14-day free trial, cancel anytime.",
 };

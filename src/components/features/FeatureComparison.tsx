@@ -42,7 +42,7 @@ export default function FeatureComparison() {
                     The honest comparison
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-900 tracking-tight leading-tight">
-                    Why teams <span className="text-blue-600">switch to PeopleHub.</span>
+                    Why teams <span className="text-blue-600">switch to CorpiLance.</span>
                 </h2>
                 <p className="mt-3 text-sm sm:text-base text-slate-600">
                     A side-by-side look at what you get — versus spreadsheets and legacy HR tools.
@@ -57,7 +57,7 @@ export default function FeatureComparison() {
                         Capability
                     </div>
                     <div className="px-4 sm:px-6 py-5 text-center text-sm font-extrabold text-blue-600 bg-blue-50/50">
-                        PeopleHub
+                        CorpiLance
                     </div>
                     <div className="px-4 sm:px-6 py-5 text-center text-sm font-bold text-slate-700">
                         Spreadsheets
@@ -77,7 +77,7 @@ export default function FeatureComparison() {
                             {row.feature}
                         </div>
                         <div className="px-4 sm:px-6 py-4 flex items-center justify-center bg-blue-50/30">
-                            <Cell value={row.peoplehub} />
+                            <Cell value={row.corpilance} />
                         </div>
                         <div className="px-4 sm:px-6 py-4 flex items-center justify-center">
                             <Cell value={row.spreadsheets} />

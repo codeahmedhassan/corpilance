@@ -53,7 +53,7 @@ export default function DpaAnnexes() {
                     <AnnexHeader
                         number="1"
                         title="Details of Processing"
-                        description="The specific details of the processing carried out by PeopleHub on behalf of the Customer."
+                        description="The specific details of the processing carried out by CorpiLance on behalf of the Customer."
                     />
 
                     <div className="rounded-3xl border border-slate-200/90 bg-white p-5 sm:p-7">
@@ -95,7 +95,7 @@ export default function DpaAnnexes() {
                     <AnnexHeader
                         number="2"
                         title="Technical & Organizational Measures"
-                        description="The security controls PeopleHub applies to protect Personal Data. Reviewed annually."
+                        description="The security controls CorpiLance applies to protect Personal Data. Reviewed annually."
                     />
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -139,7 +139,7 @@ export default function DpaAnnexes() {
                     <AnnexHeader
                         number="3"
                         title="Authorized Sub-processors"
-                        description="The current list of third parties engaged by PeopleHub to process Personal Data on behalf of the Customer."
+                        description="The current list of third parties engaged by CorpiLance to process Personal Data on behalf of the Customer."
                     />
 
                     {/* Desktop table */}
@@ -208,7 +208,7 @@ export default function DpaAnnexes() {
                             </p>
                         </div>
                         <a
-                            href="mailto:dpa@peoplehub.com?subject=Subscribe%20to%20sub-processor%20notifications"
+                            href="mailto:dpa@corpilance.com?subject=Subscribe%20to%20sub-processor%20notifications"
                             className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-slate-950 text-white text-sm font-semibold hover:bg-slate-800 transition-all shadow-sm shrink-0"
                         >
                             Subscribe

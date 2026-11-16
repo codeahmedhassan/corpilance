@@ -101,7 +101,7 @@ export default function LegalContent() {
                     <H2 id="introduction">1. Introduction</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub, Inc. (&ldquo;PeopleHub,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
+                            CorpiLance, Inc. (&ldquo;CorpiLance,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
                             &ldquo;our&rdquo;) provides a cloud-based human resources management platform.
                             This Privacy Policy explains how we collect, use, disclose, and safeguard
                             information when you use our website, applications, and services
@@ -109,7 +109,7 @@ export default function LegalContent() {
                         </P>
                         <P>
                             We are committed to protecting the privacy of everyone who interacts with
-                            PeopleHub — including our customers, their employees, job applicants, and
+                            CorpiLance — including our customers, their employees, job applicants, and
                             visitors to our website. We do not sell personal information, and we take
                             strong measures to ensure that the data entrusted to us is handled
                             responsibly.
@@ -122,7 +122,7 @@ export default function LegalContent() {
                     </div>
 
                     <Callout tone="info" title="For our customers' employees">
-                        If your employer uses PeopleHub, they are the &ldquo;data controller&rdquo;
+                        If your employer uses CorpiLance, they are the &ldquo;data controller&rdquo;
                         of your personal information and we act as the &ldquo;data processor.&rdquo;
                         Requests about your data should be directed to your employer first. We
                         support them in honoring your rights.
@@ -150,7 +150,7 @@ export default function LegalContent() {
                                 address, and tax identifiers when you subscribe to a paid plan.
                             </LI>
                             <LI>
-                                <strong>Employee data.</strong> When you use PeopleHub to manage your
+                                <strong>Employee data.</strong> When you use CorpiLance to manage your
                                 workforce, you may upload employee records (including names, contact
                                 details, job information, compensation, and documents) on behalf of your
                                 employees.
@@ -298,7 +298,7 @@ export default function LegalContent() {
                             Business transfers
                         </p>
                         <P>
-                            If PeopleHub is involved in a merger, acquisition, or sale of assets, your
+                            If CorpiLance is involved in a merger, acquisition, or sale of assets, your
                             information may be transferred as part of that transaction. We will notify
                             you of any change in ownership or use of your personal information.
                         </P>
@@ -315,7 +315,7 @@ export default function LegalContent() {
                     <H2 id="international">6. International transfers</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub operates globally. Your information may be transferred to and
+                            CorpiLance operates globally. Your information may be transferred to and
                             processed in countries other than your own, including the United States and
                             the European Union. When we transfer personal information from the EEA, the
                             UK, or Switzerland, we rely on appropriate safeguards such as Standard
@@ -398,10 +398,10 @@ export default function LegalContent() {
                         <P>
                             To exercise any of these rights, email{" "}
                             <a
-                                href="mailto:privacy@peoplehub.com"
+                                href="mailto:privacy@corpilance.com"
                                 className="font-semibold text-blue-600 hover:underline"
                             >
-                                privacy@peoplehub.com
+                                privacy@corpilance.com
                             </a>
                             . We respond to all requests within 30 days. If your data was uploaded by
                             your employer, we will forward your request to them.
@@ -470,10 +470,10 @@ export default function LegalContent() {
                             knowingly collect personal information from children. If you believe we have
                             collected information from a child, please contact us at{" "}
                             <a
-                                href="mailto:privacy@peoplehub.com"
+                                href="mailto:privacy@corpilance.com"
                                 className="font-semibold text-blue-600 hover:underline"
                             >
-                                privacy@peoplehub.com
+                                privacy@corpilance.com
                             </a>{" "}
                             and we will delete it promptly.
                         </P>
@@ -507,10 +507,10 @@ export default function LegalContent() {
                                     General
                                 </span>
                                 <a
-                                    href="mailto:privacy@peoplehub.com"
+                                    href="mailto:privacy@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    privacy@peoplehub.com
+                                    privacy@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">
@@ -518,10 +518,10 @@ export default function LegalContent() {
                                     DPO
                                 </span>
                                 <a
-                                    href="mailto:dpo@peoplehub.com"
+                                    href="mailto:dpo@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    dpo@peoplehub.com
+                                    dpo@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">

@@ -11,9 +11,9 @@ import Faq from "@/components/home/Faq";
 import FinalCta from "@/components/home/FinalCta";
 
 export const metadata: Metadata = {
-  title: "PeopleHub - A simpler way to manage your people",
+  title: "CorpiLance - A simpler way to manage your people",
   description:
-    "A premium HR management platform. From hiring to payroll, PeopleHub helps modern companies streamline HR, automate everyday work, and focus on what really matters — their people.",
+    "A premium HR management platform. From hiring to payroll, CorpiLance helps modern companies streamline HR, automate everyday work, and focus on what really matters — their people.",
 };
 
 export default function HomePage() {

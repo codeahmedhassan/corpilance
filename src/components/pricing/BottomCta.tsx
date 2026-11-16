@@ -15,7 +15,7 @@ export default function BottomCta() {
                             Ready to build a better workplace?
                         </h2>
                         <p className="text-slate-600 text-sm sm:text-base leading-relaxed mb-8 max-w-md">
-                            Join thousands of companies that trust PeopleHub to manage their most important
+                            Join thousands of companies that trust CorpiLance to manage their most important
                             asset — their people.
                         </p>
                         <div className="flex flex-wrap items-center gap-3">
@@ -95,7 +95,7 @@ export default function BottomCta() {
                                     </div>
                                     <div className="text-[10px] leading-tight">
                                         <span className="font-bold text-slate-800 block">10K+ teams</span>
-                                        <span className="text-slate-400">choose PeopleHub</span>
+                                        <span className="text-slate-400">choose CorpiLance</span>
                                     </div>
                                 </div>
                             </div>

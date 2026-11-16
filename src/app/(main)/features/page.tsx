@@ -10,9 +10,9 @@ import FeaturesTestimonials from "@/components/features/FeaturesTestimonials";
 import FeaturesCta from "@/components/features/FeaturesCta";
 
 export const metadata: Metadata = {
-    title: "PeopleHub — Everything you need to run modern HR",
+    title: "CorpiLance — Everything you need to run modern HR",
     description:
-        "From employee records to payroll, recruitment, performance, and analytics — PeopleHub brings every HR process into one clean, powerful platform.",
+        "From employee records to payroll, recruitment, performance, and analytics — CorpiLance brings every HR process into one clean, powerful platform.",
 };
 
 export default function FeaturesPage() {

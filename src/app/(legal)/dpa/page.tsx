@@ -8,9 +8,9 @@ import DpaContact from "@/components/legal/DpaContact";
 import { DPA_SECTIONS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Data Processing Agreement (DPA) — PeopleHub",
+    title: "Data Processing Agreement (DPA) — CorpiLance",
     description:
-        "PeopleHub's Data Processing Agreement for GDPR, UK GDPR, Swiss FADP, and CCPA/CPRA compliance. Download, countersign, and manage sub-processors.",
+        "CorpiLance's Data Processing Agreement for GDPR, UK GDPR, Swiss FADP, and CCPA/CPRA compliance. Download, countersign, and manage sub-processors.",
 };
 
 export default function DpaPage() {

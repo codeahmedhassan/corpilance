@@ -16,7 +16,7 @@ export default function Faq() {
                             <span className="text-blue-600">answered.</span>
                         </h2>
                         <p className="mt-4 text-slate-600 text-sm leading-relaxed max-w-sm">
-                            Everything you need to know about PeopleHub. Can&apos;t find what you&apos;re
+                            Everything you need to know about CorpiLance. Can&apos;t find what you&apos;re
                             looking for? Reach out to our team — we reply within a few hours.
                         </p>
                         <a

@@ -11,9 +11,9 @@ import CareersCta from "@/components/about/CareersCta";
 import AboutCta from "@/components/about/AboutCta";
 
 export const metadata: Metadata = {
-    title: "About PeopleHub — Building the future of people operations",
+    title: "About CorpiLance — Building the future of people operations",
     description:
-        "We're on a mission to make HR simple, human, and reliable for every team. Learn about our story, our values, and the people behind PeopleHub.",
+        "We're on a mission to make HR simple, human, and reliable for every team. Learn about our story, our values, and the people behind CorpiLance.",
 };
 
 export default function AboutPage() {

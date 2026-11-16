@@ -85,7 +85,7 @@ export default function EmployeeSecurity() {
                             </h2>
                             <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed">
                                 Employee records hold the most sensitive data in your company.
-                                PeopleHub treats them that way — from the database to the UI.
+                                CorpiLance treats them that way — from the database to the UI.
                             </p>
                         </div>
 

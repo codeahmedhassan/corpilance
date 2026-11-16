@@ -53,7 +53,7 @@ export default function ForgotPasswordCard() {
                 <div className="flex items-center gap-2.5 mb-6 sm:mb-8">
                     <Link href="/" className="flex items-center gap-2.5 group">
                         <Image
-                            alt="PeopleHub Logo"
+                            alt="CorpiLance Logo"
                             className="h-8 w-8 object-contain transform group-hover:scale-105 transition-transform"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhwYK06kCqRIIgkTvfhja_Rm32aYS9R97-hnSaE4dE9dpBDl8HFyEO0aOc2jWcMouvNIZvLHNavCAV98aCeU6spd-tyMLDlDNFLuG3Y3qjw6a5FpGZWSevxhNZf10fkhpX140cvew0BsOfkh5cVUuTjDEZ6a4fsQ_uS_6zf4mlS5Ko7HiiwUDbSJsvmfWTXRZKXmBfr3W1mV-k_al3sUFwO_AmmYAw8EBDCEsTE4Wje71uDFyigUqF1DA1oAuWD2GuE4Y"
                             width={32}
@@ -61,7 +61,7 @@ export default function ForgotPasswordCard() {
                             unoptimized
                         />
                         <span className="text-base sm:text-lg font-extrabold tracking-tight text-slate-900">
-                            PeopleHub
+                            CorpiLance
                         </span>
                     </Link>
                 </div>

@@ -6,9 +6,9 @@ import CookiesContact from "@/components/legal/CookiesContact";
 import { COOKIES_SECTIONS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Cookie Policy — PeopleHub",
+    title: "Cookie Policy — CorpiLance",
     description:
-        "How PeopleHub uses cookies and similar technologies, what categories we use, and how you can manage your preferences at any time.",
+        "How CorpiLance uses cookies and similar technologies, what categories we use, and how you can manage your preferences at any time.",
 };
 
 export default function CookiesPage() {

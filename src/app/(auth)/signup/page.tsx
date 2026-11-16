@@ -13,9 +13,9 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Start your free trial — PeopleHub",
+    title: "Start your free trial — CorpiLance",
     description:
-        "Create your PeopleHub account in minutes. Free for 14 days, no credit card required. Manage employees, payroll, and HR from one clean dashboard.",
+        "Create your CorpiLance account in minutes. Free for 14 days, no credit card required. Manage employees, payroll, and HR from one clean dashboard.",
 };
 
 function HighlightIcon({ name }: { name: "sparkle" | "bolt" | "shield" }) {

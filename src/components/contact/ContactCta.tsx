@@ -27,7 +27,7 @@ export default function ContactCta() {
                         </div>
 
                         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[46px] font-extrabold text-white tracking-tight leading-tight">
-                            Try PeopleHub free
+                            Try CorpiLance free
                             <br className="hidden sm:block" />{" "}
                             for 14 days.
                         </h2>

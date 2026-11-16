@@ -109,7 +109,7 @@ export default function DpaRequestForm() {
                                 <p className="text-xs text-slate-500 leading-relaxed">
                                     Prefer to handle it yourself?{" "}
                                     <a
-                                        href="/legal/peoplehub-dpa-v3.2.pdf"
+                                        href="/legal/corpilance-dpa-v3.2.pdf"
                                         download
                                         className="font-semibold text-blue-600 hover:underline"
                                     >
@@ -117,10 +117,10 @@ export default function DpaRequestForm() {
                                     </a>{" "}
                                     and email it to{" "}
                                     <a
-                                        href="mailto:dpa@peoplehub.com"
+                                        href="mailto:dpa@corpilance.com"
                                         className="font-semibold text-blue-600 hover:underline"
                                     >
-                                        dpa@peoplehub.com
+                                        dpa@corpilance.com
                                     </a>
                                     .
                                 </p>

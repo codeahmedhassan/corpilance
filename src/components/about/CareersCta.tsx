@@ -43,7 +43,7 @@ export default function CareersCta() {
                     <div className="lg:col-span-6 relative">
                         <div className="relative rounded-2xl overflow-hidden shadow-lg border border-white aspect-4/3 sm:aspect-16/10">
                             <Image
-                                alt="PeopleHub team members at a company gathering"
+                                alt="CorpiLance team members at a company gathering"
                                 className="w-full h-full object-cover"
                                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWwX_VW-rgBTDDXaGjgDsoWH2slQzTFt_8uqd5ejjrQuDFpaGYPNiHkqEX0LaMO9lQZWCm2mMpbnZsUiMUp7RW0NbJTXBp-4nU7RPA-dzPelDgvJ1eF0CdjIh0_1Gq5QUVJvGrpQHLsUzLP_t4L1xUrQtkvgyiJXg1HVVPHkR_eEORabvFb3pEONylzK0LXJ8fod0KHsALKJ0_WhQf6Ph1ntD6BCZsdXy5y0iFSRWsHBdl_FA8rIsrIQ"
                                 width={800}

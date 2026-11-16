@@ -49,7 +49,7 @@ export default function DpaHero({
     version = "3.2",
     lastUpdated = "April 22, 2025",
     effectiveDate = "May 1, 2025",
-    pdfHref = "/legal/peoplehub-dpa-v3.2.pdf",
+    pdfHref = "/legal/corpilance-dpa-v3.2.pdf",
 }: Props) {
     return (
         <section className="relative z-10 pt-20 sm:pt-25 pb-8 sm:pb-10">

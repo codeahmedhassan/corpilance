@@ -9,9 +9,9 @@ import SignInCard from "@/components/auth/SignInCard";
 import { SIGNIN_HIGHLIGHTS, SIGNIN_TESTIMONIAL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Sign in — PeopleHub",
+    title: "Sign in — CorpiLance",
     description:
-        "Sign in to your PeopleHub workspace. Manage your team, run payroll, and stay on top of HR from one dashboard.",
+        "Sign in to your CorpiLance workspace. Manage your team, run payroll, and stay on top of HR from one dashboard.",
 };
 
 function HighlightIcon({

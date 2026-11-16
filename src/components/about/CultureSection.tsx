@@ -9,7 +9,7 @@ export default function CultureSection() {
                 <div className="lg:col-span-6 order-2 lg:order-1">
                     <div className="relative rounded-3xl overflow-hidden aspect-4/3 sm:aspect-5/4 shadow-xl border border-slate-100">
                         <Image
-                            alt="PeopleHub team collaborating in a modern office"
+                            alt="CorpiLance team collaborating in a modern office"
                             className="w-full h-full object-cover"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDurz-KK--hLxXufvkNUtbQ0yNIX_RGT7t68tciij-j5JjhO2HPfADmL2lbzPIRsyqE2KDjXWs6KrD8Nj2CnuEjpqrHpLEX0AgnqnN8oWNP9trgiulqfBi1jr5yeHsdigNa_Pna-V0_Ca5Ygz8990vG2jatc7kIep-vTcQvsLj5IvVyGFiCWsM2dhDgW4VCRwvu_kljb25H-bKNaraIK7qKigjTwzB7H03-oda0pJKMTKnquHL-BgOhwg"
                             width={800}
@@ -22,7 +22,7 @@ export default function CultureSection() {
                 {/* Copy */}
                 <div className="lg:col-span-6 order-1 lg:order-2">
                     <div className="inline-flex items-center px-3 py-1 rounded-full text-[10px] sm:text-xs font-bold uppercase tracking-wide bg-blue-100/70 text-blue-600 mb-3">
-                        Life at PeopleHub
+                        Life at CorpiLance
                     </div>
                     <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[42px] font-extrabold text-slate-900 tracking-tight leading-tight">
                         A place where

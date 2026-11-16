@@ -17,6 +17,8 @@ type Props = {
 };
 
 export default function SetupComplete({ company, teamSize }: Props) {
+    const ADMIN_URL = process.env.NEXT_PUBLIC_ADMIN_URL || "http://localhost:3002";
+
     const summary = [
         { label: "Company", value: company.name || "—" },
         { label: "Industry", value: company.industry || "—" },
@@ -26,10 +28,10 @@ export default function SetupComplete({ company, teamSize }: Props) {
 
     return (
         <div className="animate-auth-rise text-center">
-            {/* Success icon */}
+            {/* Verification Underway Icon */}
             <div className="flex justify-center mb-6">
                 <div className="relative">
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center">
+                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-amber-50 text-amber-600 flex items-center justify-center border border-amber-200">
                         <svg
                             className="w-8 h-8 sm:w-10 sm:h-10"
                             fill="none"
@@ -38,34 +40,40 @@ export default function SetupComplete({ company, teamSize }: Props) {
                             aria-hidden="true"
                         >
                             <path
-                                d="M5 13l4 4L19 7"
                                 strokeLinecap="round"
                                 strokeLinejoin="round"
-                                strokeWidth={2.5}
+                                strokeWidth={2}
+                                d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
                             />
                         </svg>
                     </div>
                     <span
                         aria-hidden="true"
-                        className="absolute inset-0 rounded-full ring-4 ring-emerald-100/60 animate-pulse"
+                        className="absolute inset-0 rounded-full ring-4 ring-amber-100/60 animate-pulse"
                     />
                 </div>
             </div>
 
             {/* Heading */}
             <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
-                Your workspace is ready.
+                Workspace Submitted for Verification
             </h1>
-            <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed max-w-sm mx-auto">
-                We&apos;ve set everything up based on your answers. Jump in and start exploring
-                — or take the guided tour.
+            <p className="mt-3 text-sm sm:text-base text-slate-600 leading-relaxed max-w-md mx-auto">
+                Your workspace configuration has been submitted to the CorpiLance Super Admin compliance team.
+                To maintain platform security, all organizations are reviewed before dashboard access is activated.
             </p>
 
             {/* Summary card */}
             <div className="mt-7 p-5 rounded-2xl bg-white/70 backdrop-blur-md border border-white/70 ring-1 ring-slate-900/5 text-left">
-                <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-3">
-                    Your workspace
-                </p>
+                <div className="flex items-center justify-between mb-3">
+                    <p className="text-[10px] font-bold uppercase tracking-wider text-slate-400">
+                        Workspace Application
+                    </p>
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200">
+                        <span className="w-1.5 h-1.5 rounded-full bg-amber-500 animate-ping" />
+                        Pending Verification
+                    </span>
+                </div>
                 <dl className="space-y-2.5">
                     {summary.map((item) => (
                         <div key={item.label} className="flex items-start justify-between gap-3 text-sm">
@@ -81,7 +89,7 @@ export default function SetupComplete({ company, teamSize }: Props) {
             {/* Actions */}
             <div className="mt-7 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5">
                 <Link
-                    href={`${process.env.NEXT_PUBLIC_ADMIN_URL}`}
+                    href={`${ADMIN_URL}/`}
                     className="
             relative inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full overflow-hidden
             text-white text-sm font-semibold
@@ -102,7 +110,7 @@ export default function SetupComplete({ company, teamSize }: Props) {
                         className="absolute inset-0 rounded-full bg-slate-950/90"
                     />
                     <span className="relative flex items-center gap-2">
-                        Go to dashboard
+                        View Verification Status
                         <ArrowRight />
                     </span>
                 </Link>
@@ -110,12 +118,12 @@ export default function SetupComplete({ company, teamSize }: Props) {
                     href="/features"
                     className="inline-flex items-center justify-center px-6 py-3 rounded-full bg-white border border-slate-200 text-slate-800 text-sm font-semibold hover:bg-slate-50 transition-colors"
                 >
-                    Take the tour
+                    Explore Features
                 </Link>
             </div>
 
             <p className="mt-5 text-[11px] text-slate-400">
-                You can adjust any of these settings from your workspace settings.
+                You will receive an email confirmation once your workspace has been approved by our Super Admins.
             </p>
         </div>
     );

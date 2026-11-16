@@ -15,7 +15,7 @@ export default function PayrollFaq() {
                             <span className="text-purple-600">answered.</span>
                         </h2>
                         <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed max-w-sm">
-                            The most common questions about running payroll on PeopleHub. Still
+                            The most common questions about running payroll on CorpiLance. Still
                             unsure? Our team can walk you through it.
                         </p>
                         <a

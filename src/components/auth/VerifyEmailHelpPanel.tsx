@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import { VERIFY_EMAIL_HELP_ITEMS } from "@/lib/constants";
 
-const DISMISS_KEY = "peoplehub_verify_email_help_dismissed";
+const DISMISS_KEY = "corpilance_verify_email_help_dismissed";
 
 function HelpIcon({ name }: { name: "mail" | "edit" | "support" }) {
     const common = {

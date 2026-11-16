@@ -24,7 +24,7 @@ export default function FinalCta() {
                             how you manage people?
                         </h2>
                         <p className="mt-5 text-slate-300 text-sm sm:text-base leading-relaxed max-w-lg mx-auto">
-                            Join 10,000+ companies using PeopleHub to run HR smoothly. No credit card, no
+                            Join 10,000+ companies using CorpiLance to run HR smoothly. No credit card, no
                             commitment — just a cleaner way to work.
                         </p>
 

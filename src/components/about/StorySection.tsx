@@ -28,7 +28,7 @@ export default function StorySection() {
                             an interface people could learn in an afternoon instead of a quarter.
                         </p>
                         <p>
-                            Six years later, PeopleHub is used by more than 10,000 companies in 32
+                            Six years later, CorpiLance is used by more than 10,000 companies in 32
                             countries, and we&apos;re still building with the same obsessive care
                             about simplicity that started it all.
                         </p>
@@ -53,7 +53,7 @@ export default function StorySection() {
                 <div className="lg:col-span-6 order-1 lg:order-2">
                     <div className="relative rounded-3xl overflow-hidden aspect-4/3 sm:aspect-5/4 lg:aspect-4/5 shadow-xl border border-slate-100">
                         <Image
-                            alt="PeopleHub team collaborating in a modern workspace"
+                            alt="CorpiLance team collaborating in a modern workspace"
                             className="w-full h-full object-cover"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWwX_VW-rgBTDDXaGjgDsoWH2slQzTFt_8uqd5ejjrQuDFpaGYPNiHkqEX0LaMO9lQZWCm2mMpbnZsUiMUp7RW0NbJTXBp-4nU7RPA-dzPelDgvJ1eF0CdjIh0_1Gq5QUVJvGrpQHLsUzLP_t4L1xUrQtkvgyiJXg1HVVPHkR_eEORabvFb3pEONylzK0LXJ8fod0KHsALKJ0_WhQf6Ph1ntD6BCZsdXy5y0iFSRWsHBdl_FA8rIsrIQ"
                             width={800}

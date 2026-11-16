@@ -71,7 +71,7 @@ export default function SetupSummaryPanel() {
             </h2>
 
             <p className="mt-5 text-base text-slate-600 leading-relaxed max-w-md">
-                A few quick details so PeopleHub feels like home from day one. You can change
+                A few quick details so CorpiLance feels like home from day one. You can change
                 everything later from settings.
             </p>
 

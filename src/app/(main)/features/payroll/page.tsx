@@ -13,7 +13,7 @@ import RelatedFeatures from "@/components/features/payroll/RelatedFeatures";
 import PayrollCta from "@/components/features/payroll/PayrollCta";
 
 export const metadata: Metadata = {
-    title: "Payroll — PeopleHub",
+    title: "Payroll — CorpiLance",
     description:
         "Automated payroll in 40+ countries. Calculate, comply, and pay in minutes — with tax filings, multi-currency payouts, and year-end forms handled end to end.",
 };

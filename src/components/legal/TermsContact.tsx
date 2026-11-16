@@ -26,7 +26,7 @@ export default function TermsContact() {
 
                     <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-3 lg:shrink-0">
                         <a
-                            href="mailto:legal@peoplehub.com"
+                            href="mailto:legal@corpilance.com"
                             className="inline-flex items-center justify-center gap-2 px-5 sm:px-6 py-3 sm:py-3.5 rounded-full bg-slate-950 text-white font-semibold text-sm hover:bg-slate-800 transition-all shadow-md"
                         >
                             <span>Email our legal team</span>

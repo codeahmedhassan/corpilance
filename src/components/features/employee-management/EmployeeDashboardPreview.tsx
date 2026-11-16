@@ -56,7 +56,7 @@ export default function EmployeeDashboardPreview() {
                             <span className="w-2.5 h-2.5 rounded-full bg-slate-200" />
                             <span className="w-2.5 h-2.5 rounded-full bg-slate-200" />
                             <span className="ml-3 text-[11px] font-semibold text-slate-500">
-                                PeopleHub — Employees
+                                CorpiLance — Employees
                             </span>
                         </div>
 

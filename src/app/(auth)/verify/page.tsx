@@ -7,7 +7,7 @@ import VerifyHelpPanel from "@/components/auth/VerifyHelpPanel";
 import { OTP_HIGHLIGHTS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Verify your identity — PeopleHub",
+    title: "Verify your identity — CorpiLance",
     description:
         "Enter the 6-digit verification code to finish signing in. Codes expire after 5 minutes.",
 };

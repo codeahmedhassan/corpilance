@@ -86,7 +86,7 @@ export default function AttendanceCompliance() {
                                 <span className="text-emerald-400">in every region.</span>
                             </h2>
                             <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed">
-                                Working time rules differ everywhere. PeopleHub ships with
+                                Working time rules differ everywhere. CorpiLance ships with
                                 pre-built rules for 60+ countries and audit-ready logging — so
                                 you don&apos;t have to become an employment lawyer.
                             </p>

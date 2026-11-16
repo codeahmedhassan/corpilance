@@ -320,7 +320,7 @@ export default function ContactForm() {
                                 {state === "error" && (
                                     <div className="p-3 rounded-2xl bg-rose-50 border border-rose-100 text-xs sm:text-sm text-rose-600">
                                         Something went wrong. Please try again or email us directly at
-                                        sales@peoplehub.com.
+                                        sales@corpilance.com.
                                     </div>
                                 )}
 

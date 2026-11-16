@@ -7,9 +7,9 @@ import SupportFaq from "@/components/contact/SupportFaq";
 import ContactCta from "@/components/contact/ContactCta";
 
 export const metadata: Metadata = {
-    title: "Contact PeopleHub — Talk to sales, support, or press",
+    title: "Contact CorpiLance — Talk to sales, support, or press",
     description:
-        "Get in touch with the PeopleHub team. Sales, support, and press inquiries answered within 4 business hours. Book a demo or start a free trial today.",
+        "Get in touch with the CorpiLance team. Sales, support, and press inquiries answered within 4 business hours. Book a demo or start a free trial today.",
 };
 
 export default function ContactPage() {

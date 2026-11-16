@@ -20,9 +20,9 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
-  title: "PeopleHub - A simpler way to manage your people",
+  title: "CorpiLance - A simpler way to manage your people",
   description:
-    "From hiring to payroll, PeopleHub helps modern companies streamline HR, automate everyday work, and focus on what really matters — their people.",
+    "From hiring to payroll, CorpiLance helps modern companies streamline HR, automate everyday work, and focus on what really matters — their people.",
 };
 
 export default function RootLayout({

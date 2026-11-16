@@ -20,7 +20,7 @@ export default function CallToActionBanner() {
                                 Designed for what&apos;s next.
                             </h2>
                             <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed max-w-md">
-                                Whether you&apos;re a startup or an enterprise, PeopleHub adapts to your needs and
+                                Whether you&apos;re a startup or an enterprise, CorpiLance adapts to your needs and
                                 grows with you.
                             </p>
                             <div className="mt-8">
@@ -101,7 +101,7 @@ export default function CallToActionBanner() {
                                             <span className="text-[10px] font-bold text-slate-800 block leading-none">
                                                 10K+ teams
                                             </span>
-                                            <span className="text-[8px] text-slate-400 block">choose PeopleHub</span>
+                                            <span className="text-[8px] text-slate-400 block">choose CorpiLance</span>
                                         </div>
                                     </div>
                                 </div>

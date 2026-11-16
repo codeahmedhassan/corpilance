@@ -40,7 +40,7 @@ export default function AcceptInviteSuccess() {
 
                 {/* Heading */}
                 <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight leading-tight">
-                    Welcome to PeopleHub!
+                    Welcome to CorpiLance!
                 </h1>
                 <p className="mt-3 text-sm text-slate-600 leading-relaxed max-w-sm mx-auto">
                     Your account is activated. Taking you to your workspace…

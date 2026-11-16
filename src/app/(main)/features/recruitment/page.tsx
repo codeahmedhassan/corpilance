@@ -14,7 +14,7 @@ import RelatedFeatures from "@/components/features/recruitment/RelatedFeatures";
 import RecruitmentCta from "@/components/features/recruitment/RecruitmentCta";
 
 export const metadata: Metadata = {
-    title: "Recruitment — PeopleHub",
+    title: "Recruitment — CorpiLance",
     description:
         "Hire faster from job posting to signed offer. Branded careers page, kanban pipeline, structured interviews, and offer-to-onboarding automation — all in one platform.",
 };

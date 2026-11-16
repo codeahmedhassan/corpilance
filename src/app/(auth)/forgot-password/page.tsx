@@ -10,9 +10,9 @@ import {
 } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Reset your password — PeopleHub",
+    title: "Reset your password — CorpiLance",
     description:
-        "Forgot your PeopleHub password? Enter your email and we'll send you a secure reset link. Usually arrives within 30 seconds.",
+        "Forgot your CorpiLance password? Enter your email and we'll send you a secure reset link. Usually arrives within 30 seconds.",
 };
 
 function HighlightIcon({

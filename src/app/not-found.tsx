@@ -7,7 +7,7 @@ import NotFoundActions from "@/components/errors/NotFoundActions";
 import { NOT_FOUND_QUICK_LINKS } from "@/lib/constants";
 
 export const metadata: Metadata = {
-    title: "Page not found — PeopleHub",
+    title: "Page not found — CorpiLance",
     description:
         "The page you're looking for doesn't exist. But don't worry — we've got a few suggestions.",
     robots: { index: false, follow: false },

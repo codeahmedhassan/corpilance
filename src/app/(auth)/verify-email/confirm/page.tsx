@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { Suspense, useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useSearchParams, useRouter } from "next/navigation";
@@ -10,7 +10,7 @@ import { apiFetch, ApiError } from "@/lib/api";
 
 type Status = "verifying" | "success" | "error";
 
-export default function VerifyEmailConfirmPage() {
+function VerifyEmailConfirmContent() {
     const searchParams = useSearchParams();
     const router = useRouter();
     const token = searchParams.get("token");
@@ -102,7 +102,7 @@ export default function VerifyEmailConfirmPage() {
                         <div className="flex items-center gap-2.5 mb-8">
                             <Link href="/" className="flex items-center gap-2.5">
                                 <Image
-                                    alt="PeopleHub Logo"
+                                    alt="CorpiLance Logo"
                                     className="h-8 w-8 object-contain"
                                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhwYK06kCqRIIgkTvfhja_Rm32aYS9R97-hnSaE4dE9dpBDl8HFyEO0aOc2jWcMouvNIZvLHNavCAV98aCeU6spd-tyMLDlDNFLuG3Y3qjw6a5FpGZWSevxhNZf10fkhpX140cvew0BsOfkh5cVUuTjDEZ6a4fsQ_uS_6zf4mlS5Ko7HiiwUDbSJsvmfWTXRZKXmBfr3W1mV-k_al3sUFwO_AmmYAw8EBDCEsTE4Wje71uDFyigUqF1DA1oAuWD2GuE4Y"
                                     width={32}
@@ -110,7 +110,7 @@ export default function VerifyEmailConfirmPage() {
                                     unoptimized
                                 />
                                 <span className="text-base sm:text-lg font-extrabold tracking-tight text-slate-900">
-                                    PeopleHub
+                                    CorpiLance
                                 </span>
                             </Link>
                         </div>
@@ -143,7 +143,7 @@ export default function VerifyEmailConfirmPage() {
 
                             <h1 className={`text-2xl sm:text-3xl font-extrabold tracking-tight ${accent}`}>
                                 {status === "verifying" && "Verifying your email"}
-                                {status === "success" && "Welcome to PeopleHub"}
+                                {status === "success" && "Welcome to CorpiLance"}
                                 {status === "error" && "Verification failed"}
                             </h1>
 
@@ -170,5 +170,17 @@ export default function VerifyEmailConfirmPage() {
                 </div>
             </div>
         </main>
+    );
+}
+
+export default function VerifyEmailConfirmPage() {
+    return (
+        <Suspense fallback={
+            <main className="relative min-h-svh w-full overflow-hidden flex items-center justify-center">
+                <div className="w-8 h-8 border-2 border-blue-600 border-t-transparent rounded-full animate-spin" />
+            </main>
+        }>
+            <VerifyEmailConfirmContent />
+        </Suspense>
     );
 }

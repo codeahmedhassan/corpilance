@@ -86,7 +86,7 @@ export default function PayrollCompliance() {
                                 <span className="text-purple-400">handled for you.</span>
                             </h2>
                             <p className="mt-4 text-sm sm:text-base text-slate-300 leading-relaxed">
-                                Payroll compliance shouldn&apos;t be your team&apos;s job. PeopleHub
+                                Payroll compliance shouldn&apos;t be your team&apos;s job. CorpiLance
                                 keeps up with the rules, files on time, and leaves an audit trail
                                 you can hand to anyone.
                             </p>

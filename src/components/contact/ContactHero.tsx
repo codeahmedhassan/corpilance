@@ -87,7 +87,7 @@ export default function ContactHero() {
                     {/* Subheading */}
                     <p className="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg text-slate-600 max-w-2xl mx-auto leading-relaxed px-2">
                         Whether you&apos;re ready to buy, exploring options, or already a customer
-                        needing a hand — the PeopleHub team is one message away.
+                        needing a hand — the CorpiLance team is one message away.
                     </p>
 
                     {/* Trust badges */}

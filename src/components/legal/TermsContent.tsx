@@ -112,9 +112,9 @@ export default function TermsContent() {
                         <P>
                             These Terms of Service (the &ldquo;Terms&rdquo;) form a legally binding
                             agreement between you or the company you represent (&ldquo;Customer,&rdquo;
-                            &ldquo;you,&rdquo; or &ldquo;your&rdquo;) and PeopleHub, Inc.
-                            (&ldquo;PeopleHub,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
-                            &ldquo;our&rdquo;) and govern your access to and use of the PeopleHub
+                            &ldquo;you,&rdquo; or &ldquo;your&rdquo;) and CorpiLance, Inc.
+                            (&ldquo;CorpiLance,&rdquo; &ldquo;we,&rdquo; &ldquo;us,&rdquo; or
+                            &ldquo;our&rdquo;) and govern your access to and use of the CorpiLance
                             platform, website, and related services (collectively, the
                             &ldquo;Services&rdquo;).
                         </P>
@@ -128,7 +128,7 @@ export default function TermsContent() {
                     </div>
 
                     <Callout tone="info" title="Enterprise customers">
-                        If you have signed a separate Master Services Agreement (MSA) with PeopleHub,
+                        If you have signed a separate Master Services Agreement (MSA) with CorpiLance,
                         that agreement takes precedence over these Terms for any conflict. Enterprise
                         agreements also include our Data Processing Addendum (DPA) by reference.
                     </Callout>
@@ -182,10 +182,10 @@ export default function TermsContent() {
                             <LI>
                                 Notify us immediately at{" "}
                                 <a
-                                    href="mailto:security@peoplehub.com"
+                                    href="mailto:security@corpilance.com"
                                     className="font-semibold text-blue-600 hover:underline"
                                 >
-                                    security@peoplehub.com
+                                    security@corpilance.com
                                 </a>{" "}
                                 if you suspect unauthorized access.
                             </LI>
@@ -290,10 +290,10 @@ export default function TermsContent() {
                         If you are unsatisfied with the Services for any reason within 14 days of your
                         first paid subscription, contact us at{" "}
                         <a
-                            href="mailto:billing@peoplehub.com"
+                            href="mailto:billing@corpilance.com"
                             className="font-semibold text-blue-600 hover:underline"
                         >
-                            billing@peoplehub.com
+                            billing@corpilance.com
                         </a>{" "}
                         and we will issue a full refund — no questions asked.
                     </Callout>
@@ -344,7 +344,7 @@ export default function TermsContent() {
                         <H3>Our IP</H3>
                         <P>
                             The Services, including all software, design, text, graphics, logos, and
-                            documentation, are owned by PeopleHub or its licensors and are protected by
+                            documentation, are owned by CorpiLance or its licensors and are protected by
                             copyright, trademark, and other intellectual property laws. Except as
                             expressly granted in these Terms, no rights are transferred to you.
                         </P>
@@ -358,7 +358,7 @@ export default function TermsContent() {
 
                         <H3>Trademarks</H3>
                         <P>
-                            PeopleHub and the PeopleHub logo are trademarks of PeopleHub, Inc. You may
+                            CorpiLance and the CorpiLance logo are trademarks of CorpiLance, Inc. You may
                             not use our trademarks without prior written permission, except as permitted
                             for referring to the Services accurately.
                         </P>
@@ -420,7 +420,7 @@ export default function TermsContent() {
                     </div>
 
                     <Callout tone="important" title="Not legal, tax, or HR advice">
-                        PeopleHub is a software platform. It does not provide legal, tax, or employment
+                        CorpiLance is a software platform. It does not provide legal, tax, or employment
                         advice. You are responsible for your compliance obligations under applicable
                         employment, tax, and data protection laws in the jurisdictions where you
                         operate.
@@ -456,7 +456,7 @@ export default function TermsContent() {
                     {/* 12. Indemnification */}
                     <H2 id="indemnification">12. Indemnification</H2>
                     <div className="space-y-4">
-                        <H3>By PeopleHub</H3>
+                        <H3>By CorpiLance</H3>
                         <P>
                             We will defend you against any third-party claim alleging that the Services
                             infringe a patent, copyright, or trademark, and will pay damages finally
@@ -554,10 +554,10 @@ export default function TermsContent() {
                                     Legal
                                 </span>
                                 <a
-                                    href="mailto:legal@peoplehub.com"
+                                    href="mailto:legal@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    legal@peoplehub.com
+                                    legal@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">
@@ -565,10 +565,10 @@ export default function TermsContent() {
                                     Sales
                                 </span>
                                 <a
-                                    href="mailto:sales@peoplehub.com"
+                                    href="mailto:sales@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    sales@peoplehub.com
+                                    sales@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">

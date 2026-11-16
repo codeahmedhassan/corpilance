@@ -176,7 +176,7 @@ export default function PayrollDeepDive() {
                 </h2>
                 <p className="mt-3 sm:mt-4 text-sm sm:text-base text-slate-600">
                     Four phases of every pay cycle — from calculation to audit trail — and
-                    what PeopleHub does at each step.
+                    what CorpiLance does at each step.
                 </p>
             </div>
 

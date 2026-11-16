@@ -25,7 +25,7 @@ export default function FeaturesCta() {
                         </h2>
                         <p className="mt-5 text-slate-300 text-sm sm:text-base leading-relaxed max-w-lg mx-auto">
                             Start free, invite your team, and explore the full platform. No credit card.
-                            No sales call. Just PeopleHub.
+                            No sales call. Just CorpiLance.
                         </p>
 
                         <div className="mt-8 flex flex-wrap items-center justify-center gap-3.5">

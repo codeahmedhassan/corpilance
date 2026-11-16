@@ -158,7 +158,7 @@ export default function CookiesContent() {
                     <H2 id="introduction">1. Introduction</H2>
                     <div className="space-y-4">
                         <P>
-                            This Cookie Policy explains how PeopleHub, Inc. (&ldquo;PeopleHub,&rdquo;
+                            This Cookie Policy explains how CorpiLance, Inc. (&ldquo;CorpiLance,&rdquo;
                             &ldquo;we,&rdquo; &ldquo;us,&rdquo; or &ldquo;our&rdquo;) uses cookies and
                             similar technologies (such as pixels, tags, and local storage) on our
                             website, applications, and services (collectively, the
@@ -399,10 +399,10 @@ export default function CookiesContent() {
                                     Email
                                 </span>
                                 <a
-                                    href="mailto:privacy@peoplehub.com"
+                                    href="mailto:privacy@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    privacy@peoplehub.com
+                                    privacy@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">

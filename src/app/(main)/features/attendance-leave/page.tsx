@@ -14,7 +14,7 @@ import RelatedFeatures from "@/components/features/attendance-leave/RelatedFeatu
 import AttendanceCta from "@/components/features/attendance-leave/AttendanceCta";
 
 export const metadata: Metadata = {
-    title: "Attendance & Leave Management — PeopleHub",
+    title: "Attendance & Leave Management — CorpiLance",
     description:
         "Track hours from web, mobile, kiosk, or hardware. Automate leave, overtime, and compliance. Feed accurate time straight into payroll — all in one platform.",
 };

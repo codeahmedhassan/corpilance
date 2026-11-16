@@ -76,7 +76,7 @@ export default function HeroSection() {
                         </h1>
 
                         <p className="mt-6 text-[17px] leading-relaxed text-slate-600 max-w-115">
-                            From hiring to payroll, PeopleHub helps modern companies streamline HR, automate
+                            From hiring to payroll, CorpiLance helps modern companies streamline HR, automate
                             everyday work, and focus on what really matters — their people.
                         </p>
 
@@ -125,7 +125,7 @@ export default function HeroSection() {
                             </div>
                             <div>
                                 <p className="text-xs font-bold text-slate-900 leading-none">10,000+</p>
-                                <p className="text-xs text-slate-500 mt-0.5">companies trust PeopleHub</p>
+                                <p className="text-xs text-slate-500 mt-0.5">companies trust CorpiLance</p>
                             </div>
                         </div>
                     </div>

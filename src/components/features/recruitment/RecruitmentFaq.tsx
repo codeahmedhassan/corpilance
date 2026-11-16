@@ -14,7 +14,7 @@ export default function RecruitmentFaq() {
                         <span className="text-rose-600">answered.</span>
                     </h2>
                     <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed max-w-sm">
-                        Everything about hiring on PeopleHub. Something we missed? Reach out.
+                        Everything about hiring on CorpiLance. Something we missed? Reach out.
                     </p>
                     <a
                         href="/contact"

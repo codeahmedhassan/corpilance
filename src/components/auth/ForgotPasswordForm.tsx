@@ -91,7 +91,7 @@ export default function ForgotPasswordForm({ onSubmitted }: Props) {
                     />
                 </div>
                 <p className="mt-2 text-[11px] sm:text-xs text-slate-500 leading-relaxed">
-                    Enter the email you use for PeopleHub and we&apos;ll send you a reset link.
+                    Enter the email you use for CorpiLance and we&apos;ll send you a reset link.
                 </p>
             </div>
 

@@ -1,17 +1,18 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import OtpInput from "./OtpInput";
 import ResendTimer from "./ResendTimer";
 import { OTP_CHANNELS, type OtpChannel } from "@/lib/constants";
+import { authApi, ApiError } from "@/lib/api";
 
 type VerificationState = "idle" | "verifying" | "error" | "success";
 
 type Props = {
     channel?: OtpChannel;
-    /** Masked destination shown under the heading, e.g., "j••••@acme.com" or "+1 ••• ••• 4567" */
+    /** Masked destination shown under the heading, e.g., "j••••@acme.com" */
     destination?: string;
     /** Called when verification succeeds. */
     onSuccess?: () => void;
@@ -41,47 +42,102 @@ function Spinner() {
 
 export default function Verify2FACard({
     channel = "email",
-    destination = "j••••@acme.com",
+    destination = "your registered email",
     onSuccess,
 }: Props) {
     const [state, setState] = useState<VerificationState>("idle");
-    const [attemptsLeft, setAttemptsLeft] = useState(3);
+    const [attemptsLeft, setAttemptsLeft] = useState(5);
     const [resendCount, setResendCount] = useState(0);
     const [otpKey, setOtpKey] = useState(0); // remounts the OtpInput to clear it
+    const [displayDest, setDisplayDest] = useState(destination);
+    const [tempToken, setTempToken] = useState<string | null>(null);
+    const [errorMsg, setErrorMsg] = useState<string | null>(null);
 
+    const ADMIN_URL = process.env.NEXT_PUBLIC_ADMIN_URL || "http://localhost:3002";
     const channelInfo = OTP_CHANNELS[channel];
+
+    useEffect(() => {
+        if (typeof window === "undefined") return;
+
+        // Check URL params first
+        const params = new URLSearchParams(window.location.search);
+        const urlDest = params.get("dest");
+        const urlToken = params.get("token");
+
+        // Check sessionStorage
+        const savedDest = sessionStorage.getItem("ph_2fa_dest");
+        const savedToken = sessionStorage.getItem("ph_2fa_temp");
+
+        const effectiveToken = urlToken || savedToken;
+        if (effectiveToken) {
+            setTempToken(effectiveToken);
+        }
+
+        if (urlDest) {
+            setDisplayDest(urlDest);
+        } else if (savedDest) {
+            setDisplayDest(savedDest);
+        }
+
+        // Verify with pending endpoint
+        authApi.getPending2FA(effectiveToken || undefined)
+            .then((res) => {
+                if (res?.destination) {
+                    setDisplayDest(res.destination);
+                }
+            })
+            .catch(() => {});
+    }, []);
 
     async function handleComplete(code: string) {
         setState("verifying");
+        setErrorMsg(null);
 
-        // Simulated verification — replace with your real 2FA endpoint.
-        // For demo: "123456" succeeds, everything else fails.
-        console.log("Verifying 2FA code:", code);
-        await new Promise((res) => setTimeout(res, 900));
+        try {
+            const rememberMe = typeof window !== "undefined" && sessionStorage.getItem("ph_2fa_remember") === "true";
+            await authApi.verify2FA({
+                code,
+                tempToken: tempToken || undefined,
+                rememberMe: rememberMe || undefined,
+            });
 
-        if (code === "123456") {
+            if (typeof window !== "undefined") {
+                sessionStorage.removeItem("ph_2fa_temp");
+                sessionStorage.removeItem("ph_2fa_dest");
+                sessionStorage.removeItem("ph_2fa_remember");
+            }
+
             setState("success");
             onSuccess?.();
-            // Redirect would happen here in a real app
-        } else {
-            const remaining = attemptsLeft - 1;
-            setAttemptsLeft(remaining);
+
+            // Redirect automatically to admin dashboard
+            setTimeout(() => {
+                window.location.href = `${ADMIN_URL}/`;
+            }, 1200);
+        } catch (err) {
+            const msg = err instanceof ApiError ? err.message : "Invalid verification code.";
+            setErrorMsg(msg);
+            setAttemptsLeft((prev) => Math.max(0, prev - 1));
             setState("error");
-            // Reset the OTP field after the shake
+
+            // Reset the OTP field after shake
             setTimeout(() => {
                 setOtpKey((k) => k + 1);
                 setState("idle");
-            }, 500);
+            }, 600);
         }
     }
 
     async function handleResend() {
-        // Simulated resend — replace with your real endpoint.
-        console.log("Resending 2FA code via", channel);
-        await new Promise((res) => setTimeout(res, 800));
-        setResendCount((n) => n + 1);
-        setOtpKey((k) => k + 1);
-        setState("idle");
+        setErrorMsg(null);
+        try {
+            await authApi.resend2FA({ tempToken: tempToken || undefined });
+            setResendCount((n) => n + 1);
+            setOtpKey((k) => k + 1);
+            setState("idle");
+        } catch (err) {
+            setErrorMsg(err instanceof ApiError ? err.message : "Failed to resend code.");
+        }
     }
 
     const isLocked = attemptsLeft <= 0;
@@ -130,7 +186,7 @@ export default function Verify2FACard({
                 <div className="flex items-center gap-2.5 mb-6 sm:mb-8">
                     <Link href="/" className="flex items-center gap-2.5 group">
                         <Image
-                            alt="PeopleHub Logo"
+                            alt="CorpiLance Logo"
                             className="h-8 w-8 object-contain transform group-hover:scale-105 transition-transform"
                             src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhwYK06kCqRIIgkTvfhja_Rm32aYS9R97-hnSaE4dE9dpBDl8HFyEO0aOc2jWcMouvNIZvLHNavCAV98aCeU6spd-tyMLDlDNFLuG3Y3qjw6a5FpGZWSevxhNZf10fkhpX140cvew0BsOfkh5cVUuTjDEZ6a4fsQ_uS_6zf4mlS5Ko7HiiwUDbSJsvmfWTXRZKXmBfr3W1mV-k_al3sUFwO_AmmYAw8EBDCEsTE4Wje71uDFyigUqF1DA1oAuWD2GuE4Y"
                             width={32}
@@ -138,7 +194,7 @@ export default function Verify2FACard({
                             unoptimized
                         />
                         <span className="text-base sm:text-lg font-extrabold tracking-tight text-slate-900">
-                            PeopleHub
+                            CorpiLance
                         </span>
                     </Link>
                 </div>
@@ -175,13 +231,12 @@ export default function Verify2FACard({
                             You&apos;re verified.
                         </h1>
                         <p className="mt-3 text-sm text-slate-600 leading-relaxed max-w-sm mx-auto">
-                            Signing you in — hold tight. If you&apos;re not redirected in a few seconds,
-                            continue manually.
+                            Signing you in — redirecting to your workspace dashboard now…
                         </p>
 
                         <div className="mt-6">
-                            <Link
-                                href="/"
+                            <a
+                                href={`${ADMIN_URL}/`}
                                 className="
                   relative inline-flex items-center gap-2 px-6 py-3 rounded-full overflow-hidden
                   text-white text-sm font-semibold
@@ -205,7 +260,7 @@ export default function Verify2FACard({
                                     Continue to dashboard
                                     <ArrowRight />
                                 </span>
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 ) : (
@@ -220,7 +275,7 @@ export default function Verify2FACard({
                                 {channelInfo.description}
                             </p>
                             <p className="mt-1 text-sm font-semibold text-slate-900 break-all">
-                                {destination}
+                                {displayDest}
                             </p>
                         </div>
 
@@ -230,7 +285,7 @@ export default function Verify2FACard({
                             autoSubmit
                             disabled={state === "verifying" || isLocked}
                             error={state === "error"}
-                            success={false}          // ← inside the non-success branch, always false
+                            success={false}
                             onComplete={handleComplete}
                         />
 
@@ -242,10 +297,9 @@ export default function Verify2FACard({
                             </p>
                         )}
 
-                        {state === "error" && !isLocked && (
+                        {errorMsg && !isLocked && (
                             <p className="mt-3 text-xs text-rose-600 font-semibold text-center animate-cookie-fade">
-                                Incorrect code. {attemptsLeft}{" "}
-                                {attemptsLeft === 1 ? "attempt" : "attempts"} remaining.
+                                {errorMsg}
                             </p>
                         )}
 
@@ -267,7 +321,7 @@ export default function Verify2FACard({
 
                                 {resendCount > 0 && (
                                     <p className="mt-3 text-[11px] sm:text-xs text-emerald-600 font-semibold text-center animate-cookie-fade">
-                                        A new code has been sent.
+                                        A new code has been sent to your email.
                                     </p>
                                 )}
                             </div>
@@ -275,14 +329,6 @@ export default function Verify2FACard({
 
                         {/* Alternate options */}
                         <div className="mt-6 flex flex-col items-center gap-2 text-xs sm:text-sm">
-                            {channel !== "authenticator" && (
-                                <button
-                                    type="button"
-                                    className="text-slate-500 hover:text-slate-900 transition-colors font-medium"
-                                >
-                                    Use authenticator app instead
-                                </button>
-                            )}
                             <Link
                                 href="/signin"
                                 className="font-bold text-blue-600 hover:text-blue-700 transition-colors"

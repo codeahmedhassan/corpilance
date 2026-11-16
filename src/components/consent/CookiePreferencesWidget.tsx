@@ -104,7 +104,7 @@ export default function CookiePreferencesWidget() {
         });
         setSaved(true);
         // Fire a custom event so any analytics loader can respond
-        window.dispatchEvent(new CustomEvent("peoplehub:consent-changed"));
+        window.dispatchEvent(new CustomEvent("corpilance:consent-changed"));
         setTimeout(() => setSaved(false), 3000);
     }
 
@@ -112,7 +112,7 @@ export default function CookiePreferencesWidget() {
         setConsent(ACCEPT_ALL_CONSENT);
         setPrefs({ essential: true, analytics: true, marketing: true });
         setSaved(true);
-        window.dispatchEvent(new CustomEvent("peoplehub:consent-changed"));
+        window.dispatchEvent(new CustomEvent("corpilance:consent-changed"));
         setTimeout(() => setSaved(false), 3000);
     }
 
@@ -120,7 +120,7 @@ export default function CookiePreferencesWidget() {
         setConsent(ESSENTIAL_ONLY_CONSENT);
         setPrefs({ essential: true, analytics: false, marketing: false });
         setSaved(true);
-        window.dispatchEvent(new CustomEvent("peoplehub:consent-changed"));
+        window.dispatchEvent(new CustomEvent("corpilance:consent-changed"));
         setTimeout(() => setSaved(false), 3000);
     }
 
@@ -128,7 +128,7 @@ export default function CookiePreferencesWidget() {
         clearConsent();
         setPrefs({ essential: true, analytics: false, marketing: false });
         setSaved(false);
-        window.dispatchEvent(new CustomEvent("peoplehub:consent-changed"));
+        window.dispatchEvent(new CustomEvent("corpilance:consent-changed"));
     }
 
     return (

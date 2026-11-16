@@ -118,10 +118,36 @@ export type LoginPayload = {
     rememberMe: boolean;
 };
 
+export type LoginResponse = {
+    user?: AuthUser;
+    requiresVerification?: boolean;
+    requires2FA?: boolean;
+    destination?: string;
+    tempToken?: string;
+};
+
 export const authApi = {
     login: (payload: LoginPayload) =>
-        apiFetch<{ user: AuthUser; requiresVerification?: boolean }>(
-            "/auth/login",
-            { method: "POST", body: payload }
+        apiFetch<LoginResponse>("/auth/login", {
+            method: "POST",
+            body: payload,
+        }),
+
+    verify2FA: (payload: { code: string; tempToken?: string; rememberMe?: boolean }) =>
+        apiFetch<{ user: AuthUser }>("/auth/2fa/verify", {
+            method: "POST",
+            body: payload,
+        }),
+
+    resend2FA: (payload?: { tempToken?: string }) =>
+        apiFetch<{ message: string }>("/auth/2fa/resend", {
+            method: "POST",
+            body: payload || {},
+        }),
+
+    getPending2FA: (token?: string) =>
+        apiFetch<{ active: boolean; destination?: string; email?: string }>(
+            `/auth/2fa/pending${token ? `?token=${encodeURIComponent(token)}` : ""}`,
+            { method: "GET" }
         ),
 };

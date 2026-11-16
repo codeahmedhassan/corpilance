@@ -179,21 +179,21 @@ export default function DpaContent() {
                     <div className="space-y-4">
                         <P>
                             This Data Processing Agreement (&ldquo;DPA&rdquo;) forms part of the
-                            agreement between PeopleHub, Inc. (&ldquo;PeopleHub,&rdquo;
+                            agreement between CorpiLance, Inc. (&ldquo;CorpiLance,&rdquo;
                             &ldquo;Processor&rdquo;) and the entity that has entered into the
-                            PeopleHub Terms of Service (&ldquo;Customer,&rdquo;
+                            CorpiLance Terms of Service (&ldquo;Customer,&rdquo;
                             &ldquo;Controller&rdquo;) and governs the processing of Personal Data
                             under applicable Data Protection Laws.
                         </P>
                         <P>
-                            This DPA applies where PeopleHub processes Personal Data on behalf of the
+                            This DPA applies where CorpiLance processes Personal Data on behalf of the
                             Customer as part of the Services. It incorporates the Standard Contractual
                             Clauses (SCCs) approved by the European Commission (2021/914) for
                             international transfers, where applicable.
                         </P>
                         <P>
                             Unless otherwise defined here, capitalized terms have the meanings given
-                            in the PeopleHub{" "}
+                            in the CorpiLance{" "}
                             <a
                                 href="/legal/terms"
                                 className="font-semibold text-blue-600 hover:underline"
@@ -227,7 +227,7 @@ export default function DpaContent() {
                             <LI>
                                 <strong>&ldquo;Personal Data&rdquo;</strong> means any information
                                 relating to an identified or identifiable natural person that is
-                                processed by PeopleHub on behalf of the Customer under the Agreement.
+                                processed by CorpiLance on behalf of the Customer under the Agreement.
                             </LI>
                             <LI>
                                 <strong>&ldquo;Processing&rdquo;</strong> has the meaning given in Article
@@ -235,7 +235,7 @@ export default function DpaContent() {
                             </LI>
                             <LI>
                                 <strong>&ldquo;Sub-processor&rdquo;</strong> means any third party
-                                engaged by PeopleHub to process Personal Data on behalf of the Customer.
+                                engaged by CorpiLance to process Personal Data on behalf of the Customer.
                             </LI>
                             <LI>
                                 <strong>&ldquo;Standard Contractual Clauses&rdquo;</strong> or
@@ -255,8 +255,8 @@ export default function DpaContent() {
                     <div className="space-y-4">
                         <P>
                             Under this DPA, the Customer acts as the <strong>Data Controller</strong>{" "}
-                            and PeopleHub acts as the <strong>Data Processor</strong>. Where the
-                            Customer engages a Sub-processor, PeopleHub remains liable for the
+                            and CorpiLance acts as the <strong>Data Processor</strong>. Where the
+                            Customer engages a Sub-processor, CorpiLance remains liable for the
                             Sub-processor&apos;s performance.
                         </P>
 
@@ -299,13 +299,13 @@ export default function DpaContent() {
                     <H2 id="processing">4. Processing instructions</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will process Personal Data only on documented instructions from
+                            CorpiLance will process Personal Data only on documented instructions from
                             the Customer. The Customer&apos;s instructions are set out in the Agreement,
                             this DPA (including the Annexes), and any configuration the Customer makes
                             within the Services.
                         </P>
                         <P>
-                            PeopleHub will:
+                            CorpiLance will:
                         </P>
                         <UL>
                             <LI>
@@ -330,7 +330,7 @@ export default function DpaContent() {
                     <H2 id="confidentiality">5. Confidentiality</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will ensure that any personnel authorized to process Personal
+                            CorpiLance will ensure that any personnel authorized to process Personal
                             Data are subject to appropriate confidentiality obligations — whether
                             contractual or statutory — and have received adequate training on data
                             protection.
@@ -345,7 +345,7 @@ export default function DpaContent() {
                     <H2 id="security">6. Security measures</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will implement and maintain the technical and organizational
+                            CorpiLance will implement and maintain the technical and organizational
                             measures described in <strong>Annex 2</strong> to protect Personal Data
                             against accidental or unlawful destruction, loss, alteration, unauthorized
                             disclosure, or access.
@@ -356,7 +356,7 @@ export default function DpaContent() {
                             II and ISO 27001 certifications.
                         </P>
                         <P>
-                            PeopleHub may update these measures from time to time, provided the level of
+                            CorpiLance may update these measures from time to time, provided the level of
                             protection is not reduced.
                         </P>
                     </div>
@@ -365,12 +365,12 @@ export default function DpaContent() {
                     <H2 id="subprocessors">7. Sub-processors</H2>
                     <div className="space-y-4">
                         <P>
-                            The Customer grants PeopleHub a general authorization to engage
+                            The Customer grants CorpiLance a general authorization to engage
                             Sub-processors to assist in providing the Services. A current list of
                             Sub-processors is maintained in <strong>Annex 3</strong> and on this page.
                         </P>
                         <P>
-                            PeopleHub will:
+                            CorpiLance will:
                         </P>
                         <UL>
                             <LI>
@@ -390,10 +390,10 @@ export default function DpaContent() {
                             The Customer may subscribe to Sub-processor change notifications by
                             emailing{" "}
                             <a
-                                href="mailto:dpa@peoplehub.com"
+                                href="mailto:dpa@corpilance.com"
                                 className="font-semibold text-blue-600 hover:underline"
                             >
-                                dpa@peoplehub.com
+                                dpa@corpilance.com
                             </a>
                             . If the Customer reasonably objects to a new Sub-processor, they may
                             terminate the affected portion of the Services.
@@ -404,9 +404,9 @@ export default function DpaContent() {
                     <H2 id="transfers">8. International transfers</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub processes Personal Data primarily in the EU and the US. Where the
+                            CorpiLance processes Personal Data primarily in the EU and the US. Where the
                             Customer is subject to the GDPR and Personal Data is transferred outside the
-                            EEA, PeopleHub relies on:
+                            EEA, CorpiLance relies on:
                         </P>
                         <UL>
                             <LI>
@@ -432,18 +432,18 @@ export default function DpaContent() {
                     <H2 id="data-subject-rights">9. Data subject rights</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will assist the Customer in responding to Data Subject requests
+                            CorpiLance will assist the Customer in responding to Data Subject requests
                             under Data Protection Laws — including access, rectification, erasure,
                             restriction, portability, and objection.
                         </P>
                         <P>
                             The Services include self-service tools that allow the Customer to fulfill
                             most requests directly (e.g., export, correction, and deletion of employee
-                            records). Where additional assistance is required, PeopleHub will provide it
+                            records). Where additional assistance is required, CorpiLance will provide it
                             within the timeframes required by law.
                         </P>
                         <P>
-                            PeopleHub will promptly notify the Customer if it receives a Data Subject
+                            CorpiLance will promptly notify the Customer if it receives a Data Subject
                             request relating to Personal Data processed on the Customer&apos;s behalf,
                             and will not respond directly unless legally required to do so.
                         </P>
@@ -453,7 +453,7 @@ export default function DpaContent() {
                     <H2 id="breach">10. Personal Data breaches</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will notify the Customer without undue delay — and no later than
+                            CorpiLance will notify the Customer without undue delay — and no later than
                             <strong> 48 hours</strong> — after becoming aware of a Personal Data breach
                             affecting Personal Data processed on the Customer&apos;s behalf.
                         </P>
@@ -465,10 +465,10 @@ export default function DpaContent() {
                                 The measures taken or proposed to address the breach and mitigate its
                                 effects.
                             </LI>
-                            <LI>The name and contact details of the PeopleHub point of contact.</LI>
+                            <LI>The name and contact details of the CorpiLance point of contact.</LI>
                         </UL>
                         <P>
-                            PeopleHub will cooperate with the Customer and take reasonable steps to
+                            CorpiLance will cooperate with the Customer and take reasonable steps to
                             mitigate the breach. Notification of a breach is not an acknowledgement of
                             fault or liability.
                         </P>
@@ -478,10 +478,10 @@ export default function DpaContent() {
                         Our security team operates a 24/7 incident response process. Report suspected
                         vulnerabilities or breaches immediately to{" "}
                         <a
-                            href="mailto:security@peoplehub.com"
+                            href="mailto:security@corpilance.com"
                             className="font-semibold underline"
                         >
-                            security@peoplehub.com
+                            security@corpilance.com
                         </a>
                         .
                     </Callout>
@@ -490,7 +490,7 @@ export default function DpaContent() {
                     <H2 id="audits">11. Audits &amp; inspections</H2>
                     <div className="space-y-4">
                         <P>
-                            PeopleHub will make available to the Customer all information necessary to
+                            CorpiLance will make available to the Customer all information necessary to
                             demonstrate compliance with this DPA, including:
                         </P>
                         <UL>
@@ -514,7 +514,7 @@ export default function DpaContent() {
                             <LI>At least 30 days&apos; prior written notice.</LI>
                             <LI>Reasonable scope and duration, avoiding disruption to the Services.</LI>
                             <LI>
-                                Execution of a confidentiality agreement covering any PeopleHub
+                                Execution of a confidentiality agreement covering any CorpiLance
                                 information reviewed.
                             </LI>
                             <LI>Customer bearing the cost of the audit unless material non-compliance is found.</LI>
@@ -525,7 +525,7 @@ export default function DpaContent() {
                     <H2 id="return-deletion">12. Return &amp; deletion of Personal Data</H2>
                     <div className="space-y-4">
                         <P>
-                            Upon termination or expiry of the Agreement, PeopleHub will, at the
+                            Upon termination or expiry of the Agreement, CorpiLance will, at the
                             Customer&apos;s choice:
                         </P>
                         <UL>
@@ -538,7 +538,7 @@ export default function DpaContent() {
                             </LI>
                         </UL>
                         <P>
-                            PeopleHub will make Personal Data available for export for{" "}
+                            CorpiLance will make Personal Data available for export for{" "}
                             <strong>30 days</strong> following termination. After that period, Personal
                             Data will be deleted from production systems within 30 days and from backups
                             within 90 days, unless retention is required by applicable law.
@@ -554,9 +554,9 @@ export default function DpaContent() {
                             Protection Laws require otherwise.
                         </P>
                         <P>
-                            Where PeopleHub acts as a Processor and infringes Data Protection Laws by
+                            Where CorpiLance acts as a Processor and infringes Data Protection Laws by
                             determining the purposes and means of processing, or by acting outside the
-                            lawful instructions of the Customer, PeopleHub will be liable as a
+                            lawful instructions of the Customer, CorpiLance will be liable as a
                             Controller for the resulting damage.
                         </P>
                     </div>
@@ -585,7 +585,7 @@ export default function DpaContent() {
                             </LI>
                             <LI>
                                 <strong>Annex 2 — Technical &amp; Organizational Measures</strong>: the
-                                security controls PeopleHub applies.
+                                security controls CorpiLance applies.
                             </LI>
                             <LI>
                                 <strong>Annex 3 — Authorized Sub-processors</strong>: the current list of
@@ -609,10 +609,10 @@ export default function DpaContent() {
                                     DPA inquiries
                                 </span>
                                 <a
-                                    href="mailto:dpa@peoplehub.com"
+                                    href="mailto:dpa@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    dpa@peoplehub.com
+                                    dpa@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">
@@ -620,10 +620,10 @@ export default function DpaContent() {
                                     Legal team
                                 </span>
                                 <a
-                                    href="mailto:legal@peoplehub.com"
+                                    href="mailto:legal@corpilance.com"
                                     className="text-sm font-semibold text-blue-600 hover:underline break-all"
                                 >
-                                    legal@peoplehub.com
+                                    legal@corpilance.com
                                 </a>
                             </div>
                             <div className="flex items-start gap-3">

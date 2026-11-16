@@ -97,7 +97,7 @@ export default function CookieConsent() {
 
     function commit(consent: Omit<typeof DEFAULT_CONSENT, "timestamp">) {
         setConsent(consent);
-        window.dispatchEvent(new CustomEvent("peoplehub:consent-changed"));
+        window.dispatchEvent(new CustomEvent("corpilance:consent-changed"));
         setVisible(false);
     }
 

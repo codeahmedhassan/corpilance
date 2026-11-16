@@ -64,7 +64,7 @@ export default function AcceptInviteSummaryPanel() {
             </h2>
 
             <p className="mt-5 text-base text-slate-600 leading-relaxed max-w-md">
-                Someone on your team has invited you to join their PeopleHub workspace.
+                Someone on your team has invited you to join their CorpiLance workspace.
                 Set a password and you&apos;re in — takes about 30 seconds.
             </p>
 
